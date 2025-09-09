@@ -1,92 +1,108 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Anastasia Govorova",
+  title: "Frontend Developer",
+  description: "Portfolio website of Anastasia Govorova",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "govorovanny@gmail.com",
+    linkedin: "https://www.linkedin.com/in/govorovanny/",
+    github: "https://github.com/FinNolofinwe",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I’m an experienced frontend developer with 4+ years of building scalable web applications and highly customizable user interfaces. I’ve led full-cycle development from prototyping to production, with deep expertise in e-commerce and a strong focus on performance, usability, and seamless backend integration.",
+  skills: ["React", "NextJs", "Remix", "TypeScript", "JavaScript", "Shopify", "TailwindCSS", "Zustand", "MobX", "GraphQL", "REST API", "Prisma", "SQLite", "Sanity", "Shopify", "Material UI", "CI/CD", "Webpack", "Vite", "Gulp", "Docker", "GSAP", "Framer Motion"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "F85 Upsell & Product Bundles",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Shopify app to increase sales and conversions with advanced upsell, cross-sell, and product bundling tools.",
+      link: "https://factory85.com/apps/f85-upsell-and-product-bundles/",
+      skills: ["Remix", "TypeScript", "React", "Shopify", "GraphQL", "Zustand", "Prisma", "SQLite", "CI/CD"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "San Francisco Shopify theme",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
+        "Polished theme with 5 presets, designed for medium-sized catalogs with focus on performance and flexibility.",
+      link: "https://themes.shopify.com/themes/san-francisco/presets/san-francisco",
+      skills: ["Shopify", "JavaScript", "Rest API", "Gulp", "GSAP", "CI/CD"],
+    },
+    {
+      name: "Megastore Shopify theme",
+      description:
+        "Versatile theme with 5 presets, optimized for large-scale catalogs and diverse product assortments.",
+      link: "https://themes.shopify.com/themes/megastore/presets/megastore",
+      skills: ["Shopify", "JavaScript", "Rest API", "Gulp", "GSAP", "CI/CD"],
+    },
+    {
+      name: "NOORD Themes",
+      description:
+        "Platform for managing and promoting NOORD Shopify themes with a modern, intuitive web interface.",
+      link: "https://noordthemes.com/",
+      skills: ["NextJs", "Sanity", "TypeScript", "GraphQL", "CI/CD"],
+    },
+    {
+      name: "High Five Themes",
+      description:
+        "Showcase and marketplace platform for premium Ghost themes.",
       link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["NextJs", "Sanity", "TypeScript", "GraphQL", "CI/CD"],
     },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Nino Digital",
+      title: "Frontend Developer/Shopify Developer",
+      dateRange: "Jan 2024 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Developed custom Remix/Prisma apps for Shopify, automating e-commerce processes.",
+        "Built Shopify UIs with dynamic layouts, accessibility, and 95+ Lighthouse.",
+        "Created a reusable UI component system, reducing release time by 30%+.",
+        "Provided post-release support, ensuring long-term stability of apps and UIs."
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
+      company: "Ashstone Studios",
       title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      dateRange: "Feb 2023 - Dec 2023",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
-  education: [
-    {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Adopted Next.js + Sanity stack, cutting customization time and removing backend needs.",
+        "Built a docs template system with fast search and simple navigation.",
+        "Integrated payments with auto GitHub repo access, boosting conversion by 15–18%.",
+        "Ensured product–business alignment through stakeholder collaboration."
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+      company: "SmartStack",
+      title: "Frontend Developer",
+      dateRange: "Jul 2021 - Jan 2023",
+      bullets: [
+        "Refactored legacy codebases, fixing UI issues and reaching 90+ Lighthouse.",
+        "Designed UI architecture for a financial platform with complex data-driven forms.",
+        "Delivered responsive lead-gen websites with conversion-focused interfaces."
       ],
     },
   ],
+  // education: [
+  //   {
+  //     school: "University Name",
+  //     degree: "Bachelor of Science in Computer Science",
+  //     dateRange: "2014 - 2018",
+  //     achievements: [
+  //       "Graduated Magna Cum Laude with 3.8 GPA",
+  //       "Dean's List all semesters",
+  //       "President of Computer Science Club",
+  //     ],
+  //   },
+  //   {
+  //     school: "Online Platform",
+  //     degree: "Full Stack Development Certificate",
+  //     dateRange: "2019",
+  //     achievements: [
+  //       "Completed 500+ hours of coursework",
+  //       "Built 10+ portfolio projects",
+  //       "Specialized in React and Node.js",
+  //     ],
+  //   },
+  // ],
 };
