@@ -12,13 +12,7 @@ export const siteConfig = {
     "I’m an experienced frontend developer with 4+ years of building scalable web applications and highly customizable user interfaces. I’ve led full-cycle development from prototyping to production, with deep expertise in e-commerce and a strong focus on performance, usability, and seamless backend integration.",
   skills: ["React", "NextJs", "Remix", "TypeScript", "JavaScript", "Shopify", "TailwindCSS", "Zustand", "MobX", "GraphQL", "REST API", "Prisma", "SQLite", "Sanity", "Shopify", "Material UI", "CI/CD", "Webpack", "Vite", "Gulp", "Docker", "GSAP", "Framer Motion"],
   projects: [
-    {
-      name: "F85 Upsell & Product Bundles",
-      description:
-        "Shopify app to increase sales and conversions with advanced upsell, cross-sell, and product bundling tools.",
-      link: "https://factory85.com/apps/f85-upsell-and-product-bundles/",
-      skills: ["Remix", "TypeScript", "React", "Shopify", "GraphQL", "Zustand", "Prisma", "SQLite", "CI/CD"],
-    },
+
     {
       name: "San Francisco Shopify theme",
       description:
@@ -32,6 +26,13 @@ export const siteConfig = {
         "Versatile theme with 5 presets, optimized for large-scale catalogs and diverse product assortments.",
       link: "https://themes.shopify.com/themes/megastore/presets/megastore",
       skills: ["Shopify", "JavaScript", "Rest API", "Gulp", "GSAP", "CI/CD"],
+    },
+    {
+      name: "F85 Upsell & Product Bundles",
+      description:
+        "Shopify app to increase sales and conversions with advanced upsell, cross-sell, and product bundling tools.",
+      link: "https://factory85.com/apps/f85-upsell-and-product-bundles/",
+      skills: ["Remix", "TypeScript", "React", "Shopify", "GraphQL", "Zustand", "Prisma", "SQLite", "CI/CD"],
     },
     {
       name: "NOORD Themes",
